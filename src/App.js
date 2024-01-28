@@ -1,6 +1,5 @@
 
 import './App.css';
-<<<<<<< HEAD
 import { Header} from './components/Header';
 import { Balance} from './components/Balance';
 import {IncomeExpense } from './components/IncomeExpense';
@@ -19,15 +18,7 @@ function App() {
         <AddTranscation />
       </div>
     </GlobalProvider>
-=======
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
->>>>>>> ffe64ed63c9dee6d9fd432428ae1c3feb89b0e10
-  );
-}
 
+  )}
 export default App;

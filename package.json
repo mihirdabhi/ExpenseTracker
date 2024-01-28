@@ -9,14 +9,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
     "web-vitals": "^2.1.4",
-    "@babel/plugin-proposal-private-property-in-object": "^7.12.1"
-    
-=======
-    "web-vitals": "^2.1.4"
->>>>>>> ffe64ed63c9dee6d9fd432428ae1c3feb89b0e10
+    "@babel/plugin-proposal-private-property-in-object": "^7.12.1" 
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
