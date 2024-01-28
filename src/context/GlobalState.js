@@ -26,9 +26,17 @@ function deleteTransaction(id) {
     });
 }
 
+function addTransaction(transaction) {
+    dispatch({
+        type: 'ADD_TRANSACTION',
+        payload: transaction
+    });
+}
+
+
     return(
         <GlobalContext.Provider value={{transaction:state.transaction, 
-        deleteTransaction}}>
+        deleteTransaction,addTransaction}}>
             {
                 children
             }

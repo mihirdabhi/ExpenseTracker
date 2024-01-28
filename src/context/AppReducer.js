@@ -4,11 +4,15 @@ export default (state, action) => {
         case 'DELETE_TRANSACTION':
             return {
                 ...state,
-                transactions:state.transacation.filter(transaction => transaction.id !==
+                transactions:state.transacations.filter(transaction => transaction.id !==
                     action.payload)
                 };
+        case 'ADD_TRANSACTION':
+            return {
+                ...state,
+                transactions:[action.payload,...state.transacations]
+            };
         default:
             return state;
     }
-
-};
+}
