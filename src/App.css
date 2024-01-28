@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 :root {
@@ -188,3 +189,5 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+=======
+>>>>>>> ffe64ed63c9dee6d9fd432428ae1c3feb89b0e10
